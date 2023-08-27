@@ -34,7 +34,7 @@ namespace Restaurante_descuentos
 
             Console.WriteLine($"Monto del descuento: S/ {descuento}");
             Console.WriteLine($"Impuesto: S/ {impuesto}");
-            Console.WriteLine($"Subtotal: S/ {totaldescuento}");
+            Console.WriteLine($"Pago con descuento: S/ {totaldescuento}");
             Console.WriteLine($"Importe a pagar: S/ {totalpagar}");
         }
     }
