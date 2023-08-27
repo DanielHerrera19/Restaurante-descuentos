@@ -32,10 +32,10 @@ namespace Restaurante_descuentos
             impuesto = totaldescuento * 0.18;
             totalpagar = totaldescuento + impuesto;
 
-            Console.WriteLine($"Monto del descuento: S/ {descuento:F2}");
-            Console.WriteLine($"Impuesto: S/ {impuesto:F2}");
-            Console.WriteLine($"Subtotal: S/ {totaldescuento:F2}");
-            Console.WriteLine($"Importe a pagar: S/ {totalpagar:F2}");
+            Console.WriteLine($"Monto del descuento: S/ {descuento}");
+            Console.WriteLine($"Impuesto: S/ {impuesto}");
+            Console.WriteLine($"Subtotal: S/ {totaldescuento}");
+            Console.WriteLine($"Importe a pagar: S/ {totalpagar}");
         }
     }
 }
